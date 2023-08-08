@@ -282,7 +282,7 @@ variable "engine_name" {
 variable "engine_version" {
   description = "Database Version"
   type        = string
-  default     = "8.0"
+  default     = "8.0.33"
 }
 
 variable "storage" {
