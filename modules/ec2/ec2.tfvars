@@ -7,11 +7,11 @@ environment = [
 ]
 
 image_id = [
-  "ami-084e8c05825742534"
+  "ami-0e670eb768a5fc3d4"
 ]
 
 instance_type = [
-  "t2.nano"
+  "t2.medium"
 ]
 
 name_prefix = [

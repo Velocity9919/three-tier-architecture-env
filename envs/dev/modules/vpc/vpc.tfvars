@@ -15,27 +15,27 @@ vpc_cidr = [
 ]
 
 public_subnet = {
-  "eu-west-2a" : "10.0.0.0/24",
-  "eu-west-2b" : "10.0.1.0/24",
-  "eu-west-2c" : "10.0.2.0/24"
+  "ap-south-1a" : "10.0.0.0/24",
+  "ap-south-1b" : "10.0.1.0/24",
+  "ap-south-1c" : "10.0.2.0/24"
 }
 
 private_subnet = {
-  "eu-west-2a" : "10.0.101.0/24",
-  "eu-west-2b" : "10.0.102.0/24",
-  "eu-west-2c" : "10.0.103.0/24"
+  "ap-south-1a" : "10.0.101.0/24",
+  "ap-south-1b" : "10.0.102.0/24",
+  "ap-south-1c" : "10.0.103.0/24"
 }
 
 database_subnet = {
-  "eu-west-2a" : "10.0.201.0/24",
-  "eu-west-2b" : "10.0.202.0/24",
-  "eu-west-2c" : "10.0.203.0/24"
+  "ap-south-1a" : "10.0.201.0/24",
+  "ap-south-1b" : "10.0.202.0/24",
+  "ap-south-1c" : "10.0.203.0/24"
 }
 
 availability_zones = [
-  "eu-west-2a",
-  "eu-west-2b",
-  "eu-west-2c"
+  "ap-south-1a",
+  "ap-south-1b",
+  "ap-south-1c"
 ]
 
 cidr_block = [

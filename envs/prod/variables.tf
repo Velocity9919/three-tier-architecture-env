@@ -1,7 +1,7 @@
 variable "region" {
   description = "AWS Region"
   type        = string
-  default     = "eu-west-2"
+  default     = "ap-south-1"
 }
 
 variable "project_name" {
@@ -36,9 +36,9 @@ variable "public_subnet" {
   description = "A list of public subnets inside the VPC"
   type        = map(string)
   default = {
-    "eu-west-2a" : "10.0.0.0/24",
-    "eu-west-2b" : "10.0.1.0/24",
-    "eu-west-2c" : "10.0.2.0/24"
+    "ap-south-1a" : "10.0.0.0/24",
+    "ap-south-1b" : "10.0.1.0/24",
+    "ap-south-1c" : "10.0.2.0/24"
   }
 }
 
@@ -46,9 +46,9 @@ variable "private_subnet" {
   description = "A list of private subnets inside the VPC"
   type        = map(string)
   default = {
-    "eu-west-2a" : "10.0.101.0/24",
-    "eu-west-2b" : "10.0.102.0/24",
-    "eu-west-2c" : "10.0.103.0/24"
+    "ap-south-1a" : "10.0.101.0/24",
+    "ap-south-1b" : "10.0.102.0/24",
+    "ap-south-1c" : "10.0.103.0/24"
   }
 }
 
@@ -56,15 +56,15 @@ variable "database_subnet" {
   description = "A list of database subnets inside the VPC"
   type        = map(string)
   default = {
-    "eu-west-2a" : "10.0.201.0/24",
-    "eu-west-2b" : "10.0.202.0/24",
-    "eu-west-2c" : "10.0.203.0/24"
+    "ap-south-1a" : "10.0.201.0/24",
+    "ap-south-1b" : "10.0.202.0/24",
+    "ap-south-1c" : "10.0.203.0/24"
   }
 }
 
 variable "availability_zones" {
   description = "Availability Zones used"
-  default     = ["eu-west-2a", "eu-west-2b", "eu-west-2c"]
+  default     = ["ap-south-1a", "ap-south-1b", "ap-south-1c"]
 }
 
 variable "cidr_block" {
@@ -224,7 +224,7 @@ variable "app_security_group" {
 variable "image_id" {
   description = "Image ID"
   type        = string
-  default     = "ami-084e8c05825742534"
+  default     = "ami-0e670eb768a5fc3d4"
 }
 
 variable "instance_type" {

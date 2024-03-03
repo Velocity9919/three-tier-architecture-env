@@ -23,7 +23,7 @@ identifier = [
 ]
 
 instance_class = [
-  "db.t2.nano"
+  "db.t2.small"
 ]
 
 multi_az = [

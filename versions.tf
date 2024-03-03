@@ -1,16 +1,16 @@
 terraform {
-  required_version = "1.3.9"
+  required_version = ">=1.5.4"
 
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = ">= 4.50.0"
+      version = "5.39.0"
     }
   }
 
   backend "s3" {
-    bucket = "tfstate-dev-bucket"
-    key    = "terraform.tfstate"
-    region = "eu-west-2"
+    bucket = "tfstate-dev-bucket11"
+    key    = "terraform.tfstate1"
+    region = "ap-south-1"
   }
 }
